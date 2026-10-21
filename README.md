@@ -1,7 +1,7 @@
 # BIDV-Financial-Performance-Dashboard
 Hi there! Welcome to my financial data project. I built this Power BI dashboard to analyze the financial health of BIDV, one of Vietnam's largest commercial banks, spanning a 7-year period.
 
-My goal here wasn't just to plot standard charts, but to create a highly readable, practical tool that instantly tells a story about the bank's operational efficiency. The dashboard focuses on core banking metrics that actually matter: Total Operating Income, Profit Margin, Cost-to-Income Ratio (CIR), and Earnings Per Share (EPS) trends.
+My goal here wasn't just to plot standard charts, but to create a highly readable, practical tool that instantly tells a story about the bank's operational efficiency. The dashboard focuses on core banking metrics that actually matter: Total Operating Income, Profit Margin, Cost-to-Income Ratio, and Earnings Per Share trends.
 
 How I built it
 
