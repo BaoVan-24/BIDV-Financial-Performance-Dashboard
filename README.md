@@ -1,3 +1,5 @@
+<img width="1311" height="741" alt="Ảnh chụp màn hình 2026-10-21 124128" src="https://github.com/user-attachments/assets/98e7db31-a720-4dc8-8511-d95b517ad54f" />
+
 # BIDV-Financial-Performance-Dashboard
 Hi there! Welcome to my financial data project. I built this Power BI dashboard to analyze the financial health of BIDV, one of Vietnam's largest commercial banks, spanning a 7-year period.
 
