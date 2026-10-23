@@ -1,18 +1,32 @@
 <img width="1311" height="741" alt="Ảnh chụp màn hình 2026-10-21 124128" src="https://github.com/user-attachments/assets/98e7db31-a720-4dc8-8511-d95b517ad54f" />
 
-# BIDV-Financial-Performance-Dashboard
-Hi there! Welcome to my financial data project. I built this Power BI dashboard to analyze the financial health of BIDV, one of Vietnam's largest commercial banks, spanning a 7-year period.
+# BIDV Financial Performance Dashboard (Power BI)
 
-My goal here wasn't just to plot standard charts, but to create a highly readable, practical tool that instantly tells a story about the bank's operational efficiency. The dashboard focuses on core banking metrics that actually matter: Total Operating Income, Profit Margin, Cost-to-Income Ratio, and Earnings Per Share trends.
+## The Context
+Commercial banks often post impressive headline revenues, but a bigger balance sheet does not always mean a healthier bank. Over a 7-year timeline, a bank might grow its interest income while quietly letting operating expenses spiral or profit margins thin out.
 
-How I built it
+Looking through BIDV's annual financial statements, I wanted to build a dashboard that looks past the surface numbers and focuses on operational efficiency. The goal was simple: make it immediately clear whether the bank was actually running better year-over-year, or just getting bigger.
 
-I used Power BI as the primary visualization tool, but the real engine behind this dashboard is the data modeling and advanced DAX logic.
 
-One of the technical pieces I am most proud of in this project is the dynamic conditional formatting for the KPI cards. Instead of relying on Power BI's default settings, I wrote custom DAX measures utilizing functions like HASONEVALUE, CALCULATE, and REMOVEFILTERS to create a smart Year-over-Year comparison system.
+## What the Dashboard Answers
+Instead of crowding the screen with standard financial statement line items, the report focuses on four core indicators:
 
-When you select a specific year, the dashboard automatically looks back at the previous year and updates the indicators. It dynamically generates directional arrows and semantic colors based on business logic. For example, a revenue increase shows a green up-arrow, but a CIR increase (which indicates rising operational costs) correctly triggers a red up-arrow. I also programmed the logic to smoothly revert to a clean, neutral state when viewing the all-time totals, preventing any misleading color highlights.
+- Revenue vs. Cost Efficiency: Tracking Total Operating Income alongside Cost-to-Income Ratio to see if cost control kept pace with revenue expansion.
+- Bottom-Line Health: Monitoring Net Profit Margin to evaluate how effectively income converts into actual profit.
+- Shareholder Value: Following Earnings Per Share trends across economic cycles.
 
-A quick look at the result
 
-Feel free to download and explore the raw .pbix file in this repository to see how the DAX measures and data models are structured behind the scenes. If you are a recruiter, a fellow data enthusiast, or just curious about business intelligence, I would be happy to connect and chat!
+## Practical Design Choices
+A common problem with banking dashboards is misinterpreting financial directional signs. A higher number is not always good news:
+
+- Contextual YoY Comparisons: When selecting a specific year, the cards dynamically benchmark metrics against the prior year.
+- Metric-Specific Signals: While revenue growth triggers a positive indicator, an increase in CIR represents rising overhead and correctly signals caution. 
+- Clean Baseline: When looking at aggregate multi-year figures, comparison badges automatically clear so users are not misled by out-of-context percentage changes.
+
+
+## File
+The .pbix file is available in the repository, containing the underlying data model, relationships, and measures.
+
+---
+Author: VAN GIA BAO  
+Contact: vgbao.24115@gmail.com
